@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- saved from url=(0079)https://www.sevenbro7hers.com/wp-content/uploads/2019/12/7BB_Webcam_Scroll.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Seven Bro7hers Brewery</title>
+<style type="text/css">
+body {
+  margin: 0;
+  padding: 0;
+/*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
+  background: #333;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* The only rule that matters */
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+
+h1 {
+  position: absolute;
+  top: 73%;
+  width: 100%;
+  font-size: 120px;
+  letter-spacing: 10px;
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  text-align: center;
+  line-height: 1.0;
+}
+
+h1 span {
+  font-family: sans-serif;
+  letter-spacing: 0;
+  font-weight: 3;
+  font-size: 36px;
+  line-height: 11px;
+}
+
+h1 span a {
+  color: #fff;
+}
+</style>
+</head>
+<body>
+<link href="./Seven Bro7hers Brewery_files/css" rel="stylesheet" type="text/css">
+<h1><marquee behavior="scroll" direction="left" scrollamount="20">LIVE BREWERY FEED</marquee></h1>
+ 		<video autoplay="" loop="" id="video-background" muted="" plays-inline="">
+			<source src="http://sevenbro7hers.ddns.net:3322" type="video/webm">
+		I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264 or OGG with Theora.
+		</video>
+
+</body></html>
